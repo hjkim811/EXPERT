@@ -1,6 +1,6 @@
 # 🔍 EXPERT: An Explainable Image Captioning Evaluation Metric with Structured Explanations
 
-EXPERT is a reference-free evaluation metric for image captioning that provides structured explanations. Given an image and a caption, EXPERT generates a score and an explanation based on fluency, relevance, and descriptiveness.
+EXPERT is a reference-free evaluation metric for image captioning that provides structured explanations. Given an image and a caption, EXPERT generates a score and an explanation based on fluency, relevance, and descriptiveness. Please refer to our [paper](https://arxiv.org/abs/2506.24016) for more details.
 
 <p align="center">
   <img src="images/framework.png" width="750">
@@ -58,3 +58,14 @@ python expert.py --input_json pascal_50s.json --pascal_category HC   # Pascal-50
 <p align="center">
   <img src="images/examples.png" width="650">
 </p>
+
+## Citation
+If you find this repository useful, please cite our work:
+```
+@article{kim2025expert,
+  title={EXPERT: An Explainable Image Captioning Evaluation Metric with Structured Explanations},
+  author={Kim, Hyunjong and Kim, Sangyeop and Jeong, Jongheon and Cho, Yeongjae and Cho, Sungzoon},
+  journal={arXiv preprint arXiv:2506.24016},
+  year={2025}
+}
+```
