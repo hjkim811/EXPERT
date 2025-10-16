@@ -1,6 +1,6 @@
 # 🔍 EXPERT: An Explainable Image Captioning Evaluation Metric with Structured Explanations
 
-EXPERT is a reference-free evaluation metric for image captioning that provides structured explanations. Given an image and a caption, EXPERT generates a score and an explanation based on fluency, relevance, and descriptiveness. Please refer to our [paper](https://arxiv.org/abs/2506.24016) for more details.
+EXPERT is a reference-free evaluation metric for image captioning that provides structured explanations. Given an image and a caption, EXPERT generates a score and an explanation based on fluency, relevance, and descriptiveness. Please refer to our [paper](https://aclanthology.org/2025.findings-acl.1367) for more details.
 
 <p align="center">
   <img src="images/framework.png" width="750">
