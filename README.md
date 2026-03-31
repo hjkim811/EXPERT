@@ -18,11 +18,11 @@ Please follow the instructions in the [LLaVA repository](https://github.com/haot
 
 ## Download Images
 To run EXPERT on benchmark datasets, please download the images and place them in the following directories:
-- `images/Flickr8k_Dataset`: Download from this [link](https://www.kaggle.com/datasets/adityajn105/flickr8k).
-- `images/Flickr30k_Dataset`: Download from this [link](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset).
-- `images/Polaris`: Download from this [link](https://github.com/keio-smilab24/Polos?tab=readme-ov-file#datasets).
-- `images/Nebula`: Download from this [link](https://github.com/Ka2ukiMatsuda/DENEB?tab=readme-ov-file#dataset).
-- `images/VOC2012`: Download from this [link](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/#devkit).
+- `images/Flickr8k_Dataset`: Download from [this link](https://www.kaggle.com/datasets/adityajn105/flickr8k).
+- `images/Flickr30k_Dataset`: Download from [this link](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset).
+- `images/Polaris`: Download from [this link](https://github.com/keio-smilab24/Polos?tab=readme-ov-file#datasets).
+- `images/Nebula`: Download from [this link](https://github.com/Ka2ukiMatsuda/DENEB?tab=readme-ov-file#dataset).
+- `images/VOC2012`: Download from [this link](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/#devkit).
 - `images/val2014`: Download by running `wget http://images.cocodataset.org/zips/val2014.zip`.
 
 ## Usage
@@ -62,10 +62,11 @@ python expert.py --input_json pascal_50s.json --pascal_category HC   # Pascal-50
 ## Citation
 If you find this repository useful, please cite our work:
 ```
-@article{kim2025expert,
-  title={EXPERT: An Explainable Image Captioning Evaluation Metric with Structured Explanations},
+@inproceedings{kim2025expert,
+  title={EXPERT: An explainable image captioning evaluation metric with structured explanations},
   author={Kim, Hyunjong and Kim, Sangyeop and Jeong, Jongheon and Cho, Yeongjae and Cho, Sungzoon},
-  journal={arXiv preprint arXiv:2506.24016},
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2025},
+  pages={26642--26657},
   year={2025}
 }
 ```
