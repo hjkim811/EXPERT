@@ -63,7 +63,7 @@ python expert.py --input_json pascal_50s.json --pascal_category HC   # Pascal-50
 If you find this repository useful, please cite our work:
 ```
 @inproceedings{kim2025expert,
-  title={EXPERT: An explainable image captioning evaluation metric with structured explanations},
+  title={EXPERT: An Explainable Image Captioning Evaluation Metric with Structured Explanations},
   author={Kim, Hyunjong and Kim, Sangyeop and Jeong, Jongheon and Cho, Yeongjae and Cho, Sungzoon},
   booktitle={Findings of the Association for Computational Linguistics: ACL 2025},
   pages={26642--26657},
